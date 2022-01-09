@@ -13,3 +13,21 @@
 
 # Input : n = 13
 # Output : False
+
+
+myInput = int(input("What number do you want to try? "))
+
+def divide_by_two(num):
+
+    num = num/2
+    if num == 1 or num == 2:
+        return True
+    elif num % 2 != 0 :
+        return False
+    else :
+        return divide_by_two(num)
+
+
+
+isDivTwo = divide_by_two(myInput)
+print(isDivTwo)
