@@ -26,4 +26,3 @@ def optimize_profit_optimized (array_prices):
 
     return max - min
 
-print(optimize_profit_optimized(input_array))
